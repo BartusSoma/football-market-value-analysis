@@ -1,23 +1,22 @@
 Futballisták piaci értékének keresztmetszeti regressziós elemzése
 """
 
-# 1. FÁZIS: Adatbeolvasás, Tisztítás és Vizualizáció
-# TODO: CSV beolvasása (Pandas)
-# TODO: Hiányzó (NA) értékek és kapusok (GK) kiszűrése
-# TODO: Piaci ár (Y) eloszlásának és az outliereknek a vizualizációja (Seaborn)
-# TODO: Gyors korrelációs mátrix a durva multikollinearitás korai szűrésére
+# 1. FÁZIS: Adatbeolvasás, csomagok importálása és adattisztítás
+# TODO: pandas, statsmodels, seaborn, matplotlib importálása
+# TODO: Nyers Kaggle CSV beolvasása, NA értékek kezelése
+# TODO: Kapusok (GK) kiszűrése és az outlierek korai vizualizációja
 
-# 2. FÁZIS: Változók és Dummyk kialakítása
-# TODO: Dummy változók létrehozása (ligák, posztok) a referenciacsoport elhagyásával
-# TODO: A végleges, modellezésre kész (tiszta) elemzési adatbázis összeállítása
+# 2. FÁZIS: Dummy változók generálása és az elemzési adatbázis felépítése
+# TODO: Kvalitatív változók (posztok, ligák) dummyvá alakítása (referenciacsoport kihagyásával)
+# TODO: A modellezésre kész, tiszta elemzési mátrix összeállítása
 
-# 3. FÁZIS: OLS Regresszió és Változószelekció
-# TODO: A teljes modell (összes magyarázó változó) futtatása klasszikus OLS-sel
-# TODO: Backward elimination: nem szignifikáns változók logikus, lépésenkénti eltávolítása
+# 3. FÁZIS: OLS Regresszió és Változószelekció (Backward Elimination)
+# TODO: Teljes alapmodell futtatása az összes magyarázó változóval
+# TODO: Nem szignifikáns változók (p > 0.05) lépésenkénti kidobása, amíg csak szignifikáns változó marad
 
-# 4. FÁZIS: Modellfeltételek és VIF (A végleges modellen)
-# TODO: VIF (Variance Inflation Factor) mutatók ellenőrzése
-# TODO: Klasszikus modellfeltételek (Normalitásvizsgálat a maradékokon) ellenőrzése
+# 4. FÁZIS: Multikollinearitás, VIF-mutatók és Modellfeltételek vizsgálata
+# TODO: VIF mutatók számítása a végleges, szignifikáns modellen
+# TODO: A klasszikus 5 lineáris regressziós modellfeltétel (pl. maradékok normalitása) tesztelése
 
 # 5. FÁZIS: Útelemzés (Path Analysis)
-# TODO: Közvetett és közvetlen hatások vizsgálata (pl. életkor -> játékidő -> piaci érték)
+# TODO: Közvetett és közvetlen hatások modellezése (pl. Életkor -> Játékidő -> Piaci érték)
