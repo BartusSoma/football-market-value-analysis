@@ -18,5 +18,3 @@ A már kizárólag szignifikáns változókat tartalmazó végleges modellen elv
 
 ## 5. Útelemzés (Path Analysis)
 Az elemzés zárásaként megvizsgáljuk a változók közötti mélyebb, strukturális összefüggéseket. Feltárjuk a közvetlen hatások mellett a közvetett útvonalakat is, különös tekintettel arra, hogy a játékosok életkora a játékidő változásán keresztül milyen áttételes hatást gyakorol a piaci értékre.
-
-HALI!
