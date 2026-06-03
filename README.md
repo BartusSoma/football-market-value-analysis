@@ -1,8 +1,11 @@
 Futballisták piaci értékének többváltozós regressziós modellel történő elemzése
+
 A projekt célja: 
+
 A projekt célja a profi labdarúgók piaci értékét befolyásoló fundamentális tényezők vizsgálata egy keresztmetszeti adatbázison. A kutatás arra keresi a választ, hogy a játékosok életkora, pályán töltött ideje, szerződésük hossza, nemzetisége, posztja, gólhozzájárulásuk, és az, hogy milyen ligában játszanak milyen mértékben és milyen áttételeken keresztül határozzák meg a becsült piaci árukat.
 
 Adatforrás: 
+
 Az elemzés a Transfermarkt 2025/26-os szezonra vonatkozó hivatalos adatbázisán alapul, amely a Kaggle platformjáról származik. Az adattisztítás során a projekt összekapcsolta a játékosok alapadatait (players.csv), piaci értékeléseit (player_valuations.csv), pályára lépéseit (appearances.csv) és klubadatait (clubs.csv).
 
 Alkalmazott módszertan: 
