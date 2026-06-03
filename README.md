@@ -9,10 +9,14 @@ Adatforrás:
 Az elemzés a Transfermarkt 2025/26-os szezonra vonatkozó hivatalos adatbázisán alapul, amely a Kaggle platformjáról származik. Az adattisztítás során a projekt összekapcsolta a játékosok alapadatait (players.csv), piaci értékeléseit (player_valuations.csv), pályára lépéseit (appearances.csv) és klubadatait (clubs.csv).
 
 Alkalmazott módszertan: 
+
 Az adatelemzés Python (Pandas, NumPy, Statsmodels, Seaborn) környezetben készült, az alábbi lépésekkel:
 Adat-előkészítés és Tisztítás: Hiányzó értékek kezelése, outlierek azonosítása, valamint kategorikus változók (posztok, bajnokságok, nemzetiségek) dummy változókká alakítása.
+
 Multikollinearitás Vizsgálata: VIF (Variance Inflation Factor) mutatók számítása és inverz korrelációs mátrix generálása a magyarázó változók lineáris függetlenségének bizonyítására.
+
 Gauss-Markov Feltételek Ellenőrzése: A klasszikus lineáris regresszió feltételeinek vizuális és elméleti tesztelése.
+
 Útelemzés: A magyarázó változók (Életkor és Játékidő) teljes, közvetlen és közvetett hatásainak matematikai szétbontása és vizualizációja.
 
 Főbb eredmények:
